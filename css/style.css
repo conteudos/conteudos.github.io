@@ -1,0 +1,171 @@
+body {
+    background-color: #EFF1F3;
+    max-width: 700px;
+    margin: 0 auto;
+    border: 0;
+}
+
+header {
+    background-image: url("../img/topo.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 250px;
+}
+
+footer {
+    background-color: white;
+    padding: 0px 10px 15px 10px;
+}
+
+#top {
+    background-color: #ffffff;
+    margin: 0;
+    border: 0;
+    padding-bottom: 15px;
+}
+
+.profile-image {
+    text-align: center;
+}
+
+.user-image {
+    margin: -70px 0px 0px 0px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #ffffff;
+    border-radius: 50%;
+    max-width: 150px;
+}
+
+.username {
+    font-family: sans-serif;
+    color: #333;
+    font-size: 18px;
+    text-align: center;
+}
+
+.viwew {
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    color: #8A96A3;
+    margin-top: -10px;
+}
+
+.verified {
+    text-align: center;
+    margin: -33px 0px 15px 210px;
+}
+
+.verified img {
+    max-width: 15px;
+}
+
+.bio {
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5em;
+    text-align: center;
+}
+
+.offer {
+    background-color: #ffffff;
+    padding: 15px 5px 15px 5px;
+    margin-top: 7px;
+}
+
+.btn {
+    background-color: #00aff0;
+    border: 0;
+    color: white;
+    padding: 15px;
+    width: 100%;
+    border-radius: 30px;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    font-weight: 1.3em;
+    letter-spacing: 0.3px;
+    cursor: pointer;
+}
+
+.scarcity {
+    font-family: sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.3em;
+    letter-spacing: 0.3px;
+    color: black;
+    text-align: center;
+}
+
+.scarcity span {
+    color: red;
+}
+
+.post {
+    background-color: white;
+    margin-top: 7px;
+    padding: 10px;
+}
+
+.post img {
+    width: 100%;
+}
+
+.cta {
+    padding: 20px 12px 0px 12px;
+    background-color: white;
+    margin-top: 7px;
+    text-align: center;
+    font-family: sans-serif;
+    color: #333;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.offer-cta {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.4em;
+    margin-bottom: 7px;
+}
+
+.scarcity-cta {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.3em;
+    margin-bottom: 7px;
+    width: 100%;
+}
+
+.old-price-cta {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.3em;
+    font-style: italic;
+    width: 100%;
+    margin-bottom: 7px;
+}
+
+.element-cta {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.3em;
+    font-style: italic;
+    width: 100%;
+    margin-bottom: 7px;
+}
+
+.price-cta {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.3em;
+    font-style: italic;
+    color: #37A803;
+    width: 100%;
+    margin-bottom: 7px;
+}
