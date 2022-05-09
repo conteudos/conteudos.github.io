@@ -105,12 +105,14 @@ footer {
     border-radius: 3px;
 }
 
+#btn-hide {
+    width: 100%;
+    margin-top: 10px;
+}
+
 .button {
     display: flex;
     justify-content: center;
-    width: 100%;
-    margin-top: 10px;
-    --webkit-animation: wowpulsin 1.5s infinite;
 }
 
 .btn {
@@ -129,10 +131,17 @@ footer {
     padding: 15px 30px;
     border: none;
     text-decoration: none;
-    animation: wowpulsin 1.5s infinite;
+    
     width: 75%;
 }
 
 .btn-text {
     color: #ffffff;
+}
+
+.preco {
+    text-align: center;
+    line-height: 2;
+    color: white;
+    font-size: 24px;
 }
