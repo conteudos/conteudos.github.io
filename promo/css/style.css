@@ -15,7 +15,7 @@
 }
 
 .content {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     background: rgba(0, 0, 0, 0.5);
     height: 100%;
