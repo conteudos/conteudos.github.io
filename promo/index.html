@@ -6,7 +6,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <script type='text/javascript' src='../js/back.js'></script>
+    <script>
+        var back_redirect_back_link = 'https://pay.kiwify.com.br/X9knpLb';
+
+        history.pushState({}, "", location.href);
+        history.pushState({}, "", location.href);
+
+        window.onpopstate = function() {
+            setTimeout(function() {
+                if (location.href.indexOf('#') == -1) {
+                    location.href = back_redirect_back_link + location.search;
+                }
+            }, 1);
+        };
+    </script>   
     <title>ÚLTIMA CHANCE</title>
 </head>
 
