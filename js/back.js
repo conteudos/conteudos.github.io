@@ -1,4 +1,4 @@
-var back_redirect_back_link = 'https://pay.kiwify.com.br/X9knpLb';
+var back_redirect_back_link = 'https://meusconteudos.com/promo/';
 
 history.pushState({}, "", location.href);
 history.pushState({}, "", location.href);
