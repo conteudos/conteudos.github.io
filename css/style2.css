@@ -71,7 +71,7 @@ footer {
 .viwew {
     font-family: sans-serif;
     text-align: left;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 400;
     color: #8A96A3;
     margin-top: -10px;
@@ -79,9 +79,10 @@ footer {
 
 .bio {
     font-family: sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 1.5em;
+    text-align: center;
 }
 
 .offer {
@@ -98,7 +99,7 @@ footer {
     width: 100%;
     border-radius: 30px;
     font-family: sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 700;
     font-weight: 1.3em;
     letter-spacing: 0.3px;
@@ -156,7 +157,7 @@ footer {
 }
 
 .old-price-cta {
-    font-size: 28px;
+    font-size: 32px;
     font-weight: 700;
     line-height: 1.3em;
     font-style: italic;
@@ -165,7 +166,7 @@ footer {
 }
 
 .element-cta {
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 600;
     line-height: 1.3em;
     font-style: italic;
@@ -174,7 +175,7 @@ footer {
 }
 
 .price-cta {
-    font-size: 30px;
+    font-size: 36px;
     font-weight: 700;
     line-height: 1.3em;
     font-style: italic;
