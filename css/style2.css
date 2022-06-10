@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background-color: #EFF1F3;
     max-width: 700px;
@@ -10,7 +15,7 @@ header {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 250px;
+    min-height: 200px;
 }
 
 footer {
@@ -24,30 +29,34 @@ footer {
     border: 0;*/
     padding-left: 20px;
     padding-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    row-gap: 10px;
 }
 
 .user-image {
-    margin: -70px 0px 0px 0px;
+    margin: -40px 0px 0px 0px;
     border-style: solid;
     border-width: 2px;
     border-color: #ffffff;
     border-radius: 50%;
-    max-width: 150px;
+    max-width: 96px;
 }
 
 .user {
     display: flex;
-    align-items: baseline;
+    align-items: center;
     gap: 7px;
     /*margin: -33px 0px 15px 210px;*/
 }
 
 .username {
-    font-family: sans-serif;
-    color: #333;
-    font-size: 24px;
-    /*text-align: center;*/
-    display: flex;
+    font-family: Roboto, sans-serif;
+    color: #242529;
+    font-size: 19px;
+    line-height: 24px;
+    font-weight: 500;
 }
 
 .user img {
@@ -57,8 +66,16 @@ footer {
 
 .status {
     display: flex;
-    align-items: baseline;
-    gap: 3px;
+    align-items: center;
+    column-gap: 3px;
+}
+
+.arroba {
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #8A96A3;
+    margin-right: 10px;
 }
 
 .circulo {
@@ -70,24 +87,21 @@ footer {
 
 .viwew {
     font-family: sans-serif;
-    text-align: left;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 400;
     color: #8A96A3;
-    margin-top: -10px;
 }
 
 .bio {
     font-family: sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
     line-height: 1.5em;
-    text-align: left;
 }
 
 .offer {
     background-color: #ffffff;
-    padding: 15px 5px 15px 5px;
+    padding: 30px 5px 15px 5px;
     margin-top: 7px;
 }
 
@@ -96,10 +110,12 @@ footer {
     border: 0;
     color: white;
     padding: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     width: 100%;
     border-radius: 30px;
     font-family: sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 700;
     font-weight: 1.3em;
     letter-spacing: 0.3px;
@@ -108,7 +124,7 @@ footer {
 
 .scarcity {
     font-family: sans-serif;
-    font-size: 36px;
+    font-size: 26px;
     font-weight: 700;
     line-height: 1.3em;
     letter-spacing: 0.3px;
@@ -139,6 +155,7 @@ footer {
     color: #333;
     display: flex;
     flex-wrap: wrap;
+    row-gap: 5px;
 }
 
 .offer-cta {
@@ -157,7 +174,7 @@ footer {
 }
 
 .old-price-cta {
-    font-size: 32px;
+    font-size: 28px;
     font-weight: 700;
     line-height: 1.3em;
     font-style: italic;
@@ -166,7 +183,7 @@ footer {
 }
 
 .element-cta {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 600;
     line-height: 1.3em;
     font-style: italic;
@@ -175,7 +192,7 @@ footer {
 }
 
 .price-cta {
-    font-size: 36px;
+    font-size: 30px;
     font-weight: 700;
     line-height: 1.3em;
     font-style: italic;
