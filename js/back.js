@@ -1,4 +1,4 @@
-var back_redirect_back_link = 'https://meusconteudos.com/promo/';
+var back_redirect_back_link = 'https://dev-exclusivo.pantheonsite.io/promocao-exclusiva';
 
 history.pushState({}, "", location.href);
 history.pushState({}, "", location.href);
